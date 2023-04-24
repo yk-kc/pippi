@@ -35,7 +35,7 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <p>{count}</p>
+      <p>今の値は{count}だよ</p>
       <button onClick={onClickPlus} className={styles.button}>
         +1
       </button>
